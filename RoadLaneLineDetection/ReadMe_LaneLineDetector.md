@@ -93,8 +93,8 @@ import matplotlib.pyplot as plt
 ## Output Screenshots
 
 ### Image Output
-![Image Output](https://github.com/AtharvaPore01/Python-Programming-Machine-Learning-Computer-Vision-Artificial-Intelligence/blob/main/RoadLaneLineDetection/output/Image_Output.png)
+![Image Output](https://github.com/AtharvaPore01/Python-Programming-Machine-Learning-Computer-Vision-Artificial-Intelligence/blob/main/RoadLaneLineDetection/output/ImageOutput.png)
 
 ### Video Output
-![Video Output](https://github.com/AtharvaPore01/Python-Programming-Machine-Learning-Computer-Vision-Artificial-Intelligence/blob/main/RoadLaneLineDetection/output/Video_Output.png)
+![Video Output](https://github.com/AtharvaPore01/Python-Programming-Machine-Learning-Computer-Vision-Artificial-Intelligence/blob/main/RoadLaneLineDetection/output/VideoOutput.png)
 ```
