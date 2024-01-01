@@ -5,38 +5,31 @@
 ### createBackgroundSubtractorGMG
 The `createBackgroundSubtractorGMG` method in OpenCV performs background subtraction using the GMG (Global Motion-based Background subtraction) algorithm. GMG is based on statistical background modeling and adaptively updates the background.
 
-<details>
-<summary>Mathematical Equation</summary>
+**Mathematical Equation:**
 
-$`\ B(x, y, t) = (1 - \alpha) \cdot B(x, y, t-1) + \alpha \cdot I(x, y, t)\`$
-</details>
+$$B(x, y, t) = (1 - \alpha) \cdot B(x, y, t-1) + \alpha \cdot I(x, y, t)$$
 
 ### createBackgroundSubtractorMOG2
 The `createBackgroundSubtractorMOG2` method applies background subtraction using the MOG2 (Mixture of Gaussians) algorithm. MOG2 models each pixel as a mixture of K Gaussian distributions and updates the model over time.
 
-<details>
-<summary>Mathematical Equation</summary>
+**Mathematical Equation:**
 
-$`\ P(x, y, t) = \sum_{i=1}^k w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \`$
-</details>
+$$P(x, y, t) = \sum_{i=1}^k w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i)$$
 
 ### createBackgroundSubtractorKNN
 The `createBackgroundSubtractorKNN` method performs background subtraction using the KNN (K-nearest neighbors) algorithm. It classifies each pixel as foreground or background based on the K-nearest neighbors in a given neighborhood.
 
-<details>
-<summary>Mathematical Equation</summary>
+**Mathematical Equation:**
 
-$`\ P(x, y, t) = \frac{1}{K} \sum_{i=1}^{K} I(x_i, y_i, t) \`$
-</details>
+$$P(x, y, t) = \frac{1}{K} \sum_{i=1}^{K} I(x_i, y_i, t)$$
+
 
 ### createBackgroundSubtractorMOG
 The `createBackgroundSubtractorMOG` method utilizes the MOG (Mixture of Gaussians) algorithm for background subtraction. Similar to MOG2, it models each pixel as a mixture of K Gaussian distributions but may have differences in the update scheme.
 
-<details>
-<summary>Mathematical Equation</summary>
+**Mathematical Equation:**
 
-$`\ P(x, y, t) = \sum_{i=1}^k w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \`$
-</details>
+$$P(x, y, t) = \sum_{i=1}^k w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i)$$
 
 
 ## Files
