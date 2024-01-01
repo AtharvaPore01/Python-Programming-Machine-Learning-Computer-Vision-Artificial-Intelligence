@@ -87,7 +87,7 @@ import matplotlib.pyplot as plt
 
    - **Mac/Linux:**
      ```bash
-     python3 lane_detector_video.py
+     python3 lane_detector_video.py 
      ```
 
 ## Output Screenshots
