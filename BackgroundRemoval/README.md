@@ -17,7 +17,7 @@ The `createBackgroundSubtractorMOG2` method applies background subtraction using
 <details>
 <summary>Mathematical Equation</summary>
 
-$`\[ P(x, y, t) = \sum_{i=1}^{K} w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \]`$
+$`\[ P(x, y, t) = \sum_{i=1}^K w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \]`$
 </details>
 
 ### createBackgroundSubtractorKNN
@@ -35,7 +35,7 @@ The `createBackgroundSubtractorMOG` method utilizes the MOG (Mixture of Gaussian
 <details>
 <summary>Mathematical Equation</summary>
 
-$`\[ P(x, y, t) = \sum_{i=1}^{K} w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \]`$
+$`\[ P(x, y, t) = \sum_{i=1}^K w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \]`$
 </details>
 
 
