@@ -5,26 +5,39 @@
 ### createBackgroundSubtractorGMG
 The `createBackgroundSubtractorGMG` method in OpenCV performs background subtraction using the GMG (Global Motion-based Background subtraction) algorithm. GMG is based on statistical background modeling and adaptively updates the background.
 
-**Mathematical Equation:**
+<details>
+<summary>Mathematical Equation</summary>
+
 \[ B(x, y, t) = (1 - \alpha) \cdot B(x, y, t-1) + \alpha \cdot I(x, y, t) \]
+</details>
 
 ### createBackgroundSubtractorMOG2
 The `createBackgroundSubtractorMOG2` method applies background subtraction using the MOG2 (Mixture of Gaussians) algorithm. MOG2 models each pixel as a mixture of K Gaussian distributions and updates the model over time.
 
-**Mathematical Equation:**
+<details>
+<summary>Mathematical Equation</summary>
+
 \[ P(x, y, t) = \sum_{i=1}^{K} w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \]
+</details>
 
 ### createBackgroundSubtractorKNN
 The `createBackgroundSubtractorKNN` method performs background subtraction using the KNN (K-nearest neighbors) algorithm. It classifies each pixel as foreground or background based on the K-nearest neighbors in a given neighborhood.
 
-**Mathematical Equation:**
+<details>
+<summary>Mathematical Equation</summary>
+
 \[ P(x, y, t) = \frac{1}{K} \sum_{i=1}^{K} I(x_i, y_i, t) \]
+</details>
 
 ### createBackgroundSubtractorMOG
 The `createBackgroundSubtractorMOG` method utilizes the MOG (Mixture of Gaussians) algorithm for background subtraction. Similar to MOG2, it models each pixel as a mixture of K Gaussian distributions but may have differences in the update scheme.
 
-**Mathematical Equation:**
+<details>
+<summary>Mathematical Equation</summary>
+
 \[ P(x, y, t) = \sum_{i=1}^{K} w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \]
+</details>
+
 
 ## Files
 
