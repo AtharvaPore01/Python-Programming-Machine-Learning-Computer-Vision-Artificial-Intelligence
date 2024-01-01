@@ -6,14 +6,14 @@
 The Harris Corner Detection code identifies corners in an image based on the variation in intensity in all directions, utilizing the Harris corner detector proposed by Chris Harris and Mike Steffens in 1988. The algorithm involves computing a score "R" for each window, and corners are selected and marked based on a threshold applied to this score.
 
 **Mathematical Equation:**
-$`\ R = \text{det}(\text{M}) - k \cdot (\text{trace}(\text{M}))^2\`$
+$$R = \det(\text{M}) - k \cdot (\text{trace}(\text{M}))^2$$
 
 ### Shi-Tomasi Corner Detection Method
 The Shi-Tomasi Corner Detection code detects corners in an image by utilizing the Shi-Tomasi corner detection method, which is a modification of the Harris corner detector. Corners are identified based on the variation in intensity, and the algorithm selects the most prominent corners in the image.
 
 **Mathematical Equation:**
-$`\lambda_{\text{min}} = \min(\lambda_1, \lambda_2)\`$
-$`\ R = \lambda_{\text{min}} \]`$
+$$\lambda_{\text{min}} = \min(\lambda_1, \lambda_2)$$
+$$R = \lambda_{\text{min}}$$
 
 ## Files
 
