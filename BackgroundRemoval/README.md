@@ -8,7 +8,7 @@ The `createBackgroundSubtractorGMG` method in OpenCV performs background subtrac
 <details>
 <summary>Mathematical Equation</summary>
 
-\[ B(x, y, t) = (1 - \alpha) \cdot B(x, y, t-1) + \alpha \cdot I(x, y, t) \]
+$`\[ B(x, y, t) = (1 - \alpha) \cdot B(x, y, t-1) + \alpha \cdot I(x, y, t) \]`$
 </details>
 
 ### createBackgroundSubtractorMOG2
@@ -17,7 +17,7 @@ The `createBackgroundSubtractorMOG2` method applies background subtraction using
 <details>
 <summary>Mathematical Equation</summary>
 
-\[ P(x, y, t) = \sum_{i=1}^{K} w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \]
+$`\[ P(x, y, t) = \sum_{i=1}^{K} w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \]`$
 </details>
 
 ### createBackgroundSubtractorKNN
@@ -26,7 +26,7 @@ The `createBackgroundSubtractorKNN` method performs background subtraction using
 <details>
 <summary>Mathematical Equation</summary>
 
-\[ P(x, y, t) = \frac{1}{K} \sum_{i=1}^{K} I(x_i, y_i, t) \]
+$`\[ P(x, y, t) = \frac{1}{K} \sum_{i=1}^{K} I(x_i, y_i, t) \]`$
 </details>
 
 ### createBackgroundSubtractorMOG
@@ -35,7 +35,7 @@ The `createBackgroundSubtractorMOG` method utilizes the MOG (Mixture of Gaussian
 <details>
 <summary>Mathematical Equation</summary>
 
-\[ P(x, y, t) = \sum_{i=1}^{K} w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \]
+$`\[ P(x, y, t) = \sum_{i=1}^{K} w_i \cdot \mathcal{N}(x, y, t; \mu_i, \Sigma_i) \]`$
 </details>
 
 
