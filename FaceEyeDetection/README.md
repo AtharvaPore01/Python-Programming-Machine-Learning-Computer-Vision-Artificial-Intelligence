@@ -81,5 +81,5 @@ import cv2
      ```
 
 ## Output Screenshots
-(https://github.com/AtharvaPore01/Python-Programming-Machine-Learning-Computer-Vision-Artificial-Intelligence/blob/main/FaceEyeDetection/output/output.png)
+![Image Output](https://github.com/AtharvaPore01/Python-Programming-Machine-Learning-Computer-Vision-Artificial-Intelligence/blob/main/FaceEyeDetection/output/output.png)
 ```
