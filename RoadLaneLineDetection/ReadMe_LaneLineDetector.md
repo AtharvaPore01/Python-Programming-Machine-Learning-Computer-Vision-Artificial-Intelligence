@@ -3,12 +3,26 @@
 ## Description
 Lane Line Detector is a computer vision project that detects and highlights lane lines on road images and videos. The provided code includes two scripts, `lane_detector_image.py` for processing images and `lane_detector_video.py` for processing videos.
 
+## Files
+
+### lane_detector_image.py
+
+- **Author:** Atharva Pore
+- **Date:** 25th Dec, 2023
+
+#### Imports
+```python
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
 #### Functions
 - `region_of_interest(image, vertices)`: Defines a mask based on the region of interest.
 - `draw_line(image, line_vectors)`: Draws detected lines on a blank image.
 - Main code for processing an image, detecting lanes, and displaying the result.
 
-#### Steps to Run
+#### Steps to Run 
 1. Install Python 3.9.7 and required dependencies:
    - [numpy 1.22.4](https://pypi.org/project/numpy/1.22.4/)
    - [matplotlib 3.4.3](https://pypi.org/project/matplotlib/3.4.3/)
